@@ -6,6 +6,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Saiful Shaik 
  * @version April, 30, 2025
  */
+
+
 public class Apple extends Actor
 {
     int speed = 1;
