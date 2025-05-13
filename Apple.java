@@ -10,7 +10,7 @@ public class Apple extends Actor
 {
     int speed = 1;
     public Apple() {
-        setImage("images/apple1.png");
+        setImage("images/apple.png");
     }
     public void act()
     {
