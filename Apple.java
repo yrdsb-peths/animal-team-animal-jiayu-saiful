@@ -18,7 +18,7 @@ public class Apple extends Actor
     {
         // Add your action code here.
         int x = getX();
-        int y = getY()+1;
+        int y = getY() + speed;
         setLocation(x, y);
         
         MyWorld world = (MyWorld) getWorld();
