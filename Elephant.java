@@ -69,19 +69,16 @@ public class Elephant extends Actor
     {
         // Handle left and right movement based on key presses
         if (Greenfoot.isKeyDown("left")) {
-<<<<<<< HEAD
-            move(-3);
-            facing = "left";
+            move(-3);           // Move left
+            facing = "left";    // Update facing direction
         } else if (Greenfoot.isKeyDown("right")) {
-            move(3);
-            facing = "right";
-=======
+            move(3);            // Move right
+            facing = "right";   // Update facing direction
             move(-1);           // Move left
             facing = "left";    // Update facing direction
         } else if (Greenfoot.isKeyDown("right")) {
             move(1);            // Move right
             facing = "right";   // Update facing direction
->>>>>>> main
         }
 
         eat();              // Check for and handle apple collection

@@ -22,16 +22,10 @@ public class Apple extends Actor
     {
         // Get the current x and y coordinates of the apple
         int x = getX();
-<<<<<<< HEAD
-        int y = getY() + speed;
-        setLocation(x, y);
-        
-=======
-        int y = getY() + 1; // Move apple down by 1 pixel
+        int y = getY() + speed; // Move apple down by 1 pixel
         setLocation(x, y);  // Update the apple's location
 
         // Get a reference to the current world and cast it to MyWorld
->>>>>>> main
         MyWorld world = (MyWorld) getWorld();
 
         // Check if the apple has reached the bottom of the screen
